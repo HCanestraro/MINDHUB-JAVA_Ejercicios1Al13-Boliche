@@ -79,6 +79,9 @@ public class Main extends JFrame {
 	        case 9:
 				ejercicio9();
 				break;
+	        case 10:
+				ejercicio10();
+				break;
 	        case 11:
 				ejercicio11();
 				break;
@@ -220,27 +223,27 @@ public class Main extends JFrame {
     }
 
 	// EJERCICIO 10
-/*    public void ejercicio10() {
+	public void ejercicio10() {
         // Ejemplo: creando una colección de números para probar la función
-        java.util.ArrayList<Integer> numeros = new java.util.ArrayList<>();
-        numeros.add(3);
-        numeros.add(8);
-        numeros.add(5);
-        numeros.add(10);
-        numeros.add(7);
+	    java.util.ArrayList<Integer> numeros2 = new java.util.ArrayList<>();
+	    numeros2.add(3);
+	    numeros2.add(8);
+	    numeros2.add(5);
+	    numeros2.add(10);
+	    numeros2.add(7);
 
-        int sumaImpares = sumaNumerosImpares(numeros);
-        System.out.println("La suma de los números impares es: " + sumaImpares);
+	    int sumaImpares = sumaNumerosImpares2(numeros2);
+	    System.out.println("La suma de los números impares es: " + sumaImpares);
     }
-    public static int sumaNumerosImpares(Collection<Integer> numeros) {
-        int suma = 0;
-        for (int numero : numeros) {
-            if (numero % 2 != 0) { // Si el n├║mero es impar
-                suma += numero;
-            }
-        }
-        return suma;
-    }*/
+    public static int sumaNumerosImpares2(Collection<Integer> numeros3) {
+		int suma = 0;
+		for (int numero : numeros3) {
+			if (numero % 2 != 0) { // Si el número es impar
+				suma += numero;
+			}
+		}
+		return suma;
+	}
 
 	// EJERCICIO 11
     public void ejercicio11() {
